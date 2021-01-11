@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: "Helvetica", sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px;
+    text-align: center;
+}
+a {
+    color: seashell;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* header section */
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: rgb(0, 0, 0);
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    padding-bottom: 10px;
+}
+header h1 {
+    height: 50px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+/* main section */
+.main {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1800px;
+    margin: auto;
+  }
+
+#mission {
+    padding-top: 70px;
+    background-image: url("pexels-photo-106399.jpeg");
+    height: 400px;
+    margin: auto;
+    align-items: center;
+    text-shadow: 3px 3px 5px black;
+}
+#registration {
+    padding-top: 70px;
+    margin: auto;
+    height: 500px;
+    background-image: url("pexels-photo-681333.jpeg");
+    align-items: center;
+    text-shadow: 3px 3px 5px black;
+}
+#inspections {
+    padding-top: 70px;
+    margin: auto;
+    height: 500px;
+    display: block;
+    background-image: url("pexels-photo-3201920.jpeg");
+    align-items: center;
+    text-shadow: 3px 3px 5px black;
+}
+
+#properties {
+    padding-top: 70px;
+    text-shadow: black;
+    text-shadow: 3px 3px 5px black;
+    font-weight: 300;
+    height: 300px;
+    margin: auto;
+    display: block;
+    background-image: url("pexels-photo-323780.jpeg"); 
+    align-items: center;
+}
+#contact {
+    margin: auto;
+    text-shadow: 3px 3px 5px black;
+    height: 200px;
+    display: block;
+    padding-top: 70px;
+    background-image: url("pexels-photo-681335.jpeg");
+    align-items: center;
+}
+#about {
+    display: block;
+    margin: auto;
+    text-shadow: 3px 3px 5px black;
+    height: 250px;
+    padding-top: 70px;
+    background-image: url("pexels-photo-3646913.jpeg");
+    align-items: center;
+}
+footer {
+    align-items: left;
+    padding-left: 10px;
+}
